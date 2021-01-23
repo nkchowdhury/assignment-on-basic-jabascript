@@ -3,7 +3,6 @@ function kilometerToMeter(kilometer){
          var meter = kilometer*1000;
          return meter;
             
-  
 }
 
 var newMeter = kilometerToMeter(2);
@@ -29,6 +28,7 @@ function budgetCalculator(num1, num2, num3){
  var  totalPrice = budgetCalculator(10,5,2);
 
       console.log(totalPrice);
+
 
 
 
@@ -68,16 +68,17 @@ function hotelCost(stayDay){
 
 
 //megaFriend
+
 function megaFriend(){
     var friendName = ['Arif','Mozammel','nazmul' ];
   
-  var lgth = 0;
+  var large = 0;
   var longest;
   
   for (var i = 0; i < friendName.length; i++) {
       
-    if (friendName[i].length > lgth) {
-      var lgth = friendName[i].length;
+    if (friendName[i].length > large) {
+      var large = friendName[i].length;
       longest = friendName[i];
     }
   }
